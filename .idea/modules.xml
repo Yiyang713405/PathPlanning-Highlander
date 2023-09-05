@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DataChoose/.idea/DataChoose.iml" filepath="$PROJECT_DIR$/../DataChoose/.idea/DataChoose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HMM prediction/.idea/HMM prediction.iml" filepath="$PROJECT_DIR$/../HMM prediction/.idea/HMM prediction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ICONS_Planning_v2.0.iml" filepath="$PROJECT_DIR$/.idea/ICONS_Planning_v2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ICONS_Planning_v3.5/.idea/ICONS_Planning_v3.5.iml" filepath="$PROJECT_DIR$/../ICONS_Planning_v3.5/.idea/ICONS_Planning_v3.5.iml" />
+    </modules>
+  </component>
+</project>
