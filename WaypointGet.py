@@ -166,7 +166,7 @@ def WaypointGet(Lat, Lon, COG, SOG, DCPA, TCPA, DCPA_lim, TCPA_lim, x, y, wpx, w
             elif 0 < DCPA_area[i] < DCPA_lim and DCPA_area[i] < D_min and 0 < TCPA_area[i] < TCPA_lim:
                 D_min = DCPA_area[i]
                 h = i
-                '''zijian---------------------对遇和追越场景有风险时本船全部往右侧转向------------------------------'''
+
                 if THETA1[h] < 0:
                     waypoint = [(1-2*DCPA_area[h]) * math.sin(math.radians(COG_area[m - 1]+30)),  # FIXME Zhang Zijian
                                 (1-2*DCPA_area[h]) * math.cos(math.radians(COG_area[m - 1]+30))]
