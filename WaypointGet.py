@@ -171,7 +171,7 @@ def WaypointGet(Lat, Lon, COG, SOG, DCPA, TCPA, DCPA_lim, TCPA_lim, x, y, wpx, w
                     waypoint = [(1-2*DCPA_area[h]) * math.sin(math.radians(COG_area[m - 1]+30)),  # FIXME Zhang Zijian
                                 (1-2*DCPA_area[h]) * math.cos(math.radians(COG_area[m - 1]+30))]
                 elif THETA1[h] > 0:
-                    waypoint = [(1+2 * DCPA_area[h]) * math.sin(math.radians(COG_area[m - 1]+30)),  # FIXME Zhang Zijian
+                    waypoint = [(1+2 * DCPA_area[h]) * math.sin(math.radians(COG_area[m - 1]+30)),
                                 (1+2 * DCPA_area[h]) * math.cos(math.radians(COG_area[m - 1]+30))]
         #  2、计算对遇场景路径点
         elif (-180 <= THETA2[i] <= -175 or 175 <= THETA2[i] <= 180) and (-90 < THETA1[i] < 90):
